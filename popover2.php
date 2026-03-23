@@ -5,14 +5,14 @@
 <h2>PHP Popover Easy</h2>
 
 <form method="post">
-    <button name="open">Open</button>
+    <button name="Click">Click</button>
 </form>
 
 <?php
-if(isset($_POST['open']))
+if(isset($_POST["Click"]))
 {
     echo "<div style='display:block; border:1px solid black; width:200px; margin:auto; padding:10px;'>
-            Hello User
+            Hare Krishna
           </div>";
 }
 ?>
