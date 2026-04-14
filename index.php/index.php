@@ -5,81 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NSTI Howrah</title>
 
+<!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<style>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="../css/style.css">
 
-/* GLOBAL */
-body {
-    font-family: 'Segoe UI', sans-serif;
-}
-
-/* NAVBAR */
-.navbar {
-    background: #0d6efd;
-}
-.navbar-brand {
-    font-weight: bold;
-}
-
-.hero {
-    background: url('/SoumoPHP/college.jpg') center/cover no-repeat;
-    height: 90vh;
-    position: relative;
-}
-
-/* 👇 YEH IMPORTANT HAI */
-.hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    /* 🔥 DARK OVERLAY */
-    background: rgba(0, 0, 0, 0.6);
-}
-.hero-content {
-    position: relative;
-    z-index: 2;
-    color: white;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* CARDS */
-.card:hover {
-    transform: translateY(-10px);
-    transition: 0.3s;
-}
-
-/* SIDEBAR */
-.sidebar {
-    background: #f8f9fa;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* FOOTER */
-footer {
-    background: #212529;
-    color: white;
-    padding: 30px 0;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-</style>
 </head>
 
 <body>
 
-<!-- 🔷 NAVBAR -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 <div class="container">
 <a class="navbar-brand" href="">NSTI HOWRAH</a>
@@ -105,7 +41,6 @@ footer a {
 <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
 <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
 <li class="nav-item"><a class="nav-link" href="#">Student</a></li>
-
 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
 
 </ul>
@@ -113,7 +48,7 @@ footer a {
 </div>
 </nav>
 
-<!-- 🔥 HERO -->
+<!-- HERO -->
 <div class="hero">
 <div class="hero-content">
 <h1 class="display-3 fw-bold">NSTI HOWRAH</h1>
@@ -122,7 +57,7 @@ footer a {
 </div>
 </div>
 
-<!-- 🔷 FEATURES -->
+<!-- FEATURES -->
 <div class="container my-5 text-center">
 <h2 class="mb-4">Our Features</h2>
 
@@ -155,11 +90,10 @@ footer a {
 </div>
 </div>
 
-<!-- 🔷 MAIN SECTION -->
+<!-- MAIN -->
 <div class="container">
 <div class="row g-4">
 
-<!-- LEFT SIDEBAR -->
 <div class="col-md-3">
 <div class="sidebar shadow">
 <h5>Quick Links</h5>
@@ -172,19 +106,14 @@ footer a {
 </div>
 </div>
 
-<!-- CONTENT -->
 <div class="col-md-6">
 <div class="card shadow p-4">
 <h3>Welcome to NSTI Howrah</h3>
-<p>
-NSTI provides world-class training in technical and non-technical fields,
-helping students build strong careers.
-</p>
+<p>NSTI provides world-class training.</p>
 <a href="#" class="btn btn-success">Learn More</a>
 </div>
 </div>
 
-<!-- RIGHT SIDEBAR -->
 <div class="col-md-3">
 <div class="sidebar shadow">
 <h5>Notice Board</h5>
@@ -199,19 +128,14 @@ helping students build strong careers.
 </div>
 </div>
 
-<!-- 🔻 FOOTER -->
+<!-- FOOTER -->
 <footer class="mt-5">
 <div class="container">
 <div class="row">
 
 <div class="col-md-4">
 <h5>About</h5>
-<p>NSTI Howrah - Skill Development Institute</p>
-<h5>Address</h5>
-<p>Government of India
-MSDE, DGT
-NSTI Kolkata,
-Dasnagar, Howrah - 711105</p>
+<p>NSTI Howrah</p>
 </div>
 
 <div class="col-md-4">
@@ -219,15 +143,12 @@ Dasnagar, Howrah - 711105</p>
 <ul class="list-unstyled">
 <li><a href="#">Home</a></li>
 <li><a href="#">Courses</a></li>
-<li><a href="#">Contact</a></li>
 </ul>
 </div>
 
 <div class="col-md-4">
 <h5>Contact</h5>
 <p>Email: info@nsti.com</p>
-<p>Phone: 033-26531225</p>
-<p>Fax: 033-26531257</p>
 </div>
 
 </div>
@@ -236,7 +157,9 @@ Dasnagar, Howrah - 711105</p>
 </div>
 </footer>
 
+<!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>
