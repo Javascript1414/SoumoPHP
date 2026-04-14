@@ -56,3 +56,11 @@ footer {
     color: white;
     padding: 30px 0;
 }
+
+/*footer*/
+    .copyright {
+    color: #ffcc00;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}

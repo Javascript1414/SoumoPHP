@@ -35,13 +35,15 @@
 <li><a class="dropdown-item" href="#">IT Courses</a></li>
 <li><a class="dropdown-item" href="#">Mechanical</a></li>
 <li><a class="dropdown-item" href="#">Electrical</a></li>
+<li><a class="dropdown-item" href="https://www.nimionlineadmission.in/">CITS</a></li>
+
 </ul>
 </li>
 
 <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
 <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
 <li class="nav-item"><a class="nav-link" href="#">Student</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
 
 </ul>
 </div>
@@ -65,7 +67,7 @@
 
 <div class="col-md-4">
 <div class="card shadow p-4">
-<h4>🎓 Expert Faculty</h4>
+<h4>Expert Faculty</h4>
 <p>Learn from industry professionals</p>
 <a href="#" class="btn btn-primary btn-sm">Read More</a>
 </div>
@@ -81,7 +83,7 @@
 
 <div class="col-md-4">
 <div class="card shadow p-4">
-<h4>🚀 Placement Support</h4>
+<h4>Placement Support</h4>
 <p>Career guidance & job support</p>
 <a href="#" class="btn btn-primary btn-sm">Read More</a>
 </div>
@@ -136,6 +138,11 @@
 <div class="col-md-4">
 <h5>About</h5>
 <p>NSTI Howrah</p>
+<h5>Address</h5>
+<p>Government of India
+MSDE, DGT
+NSTI Kolkata,
+Dasnagar, Howrah - 711105</p>
 </div>
 
 <div class="col-md-4">
@@ -143,17 +150,20 @@
 <ul class="list-unstyled">
 <li><a href="#">Home</a></li>
 <li><a href="#">Courses</a></li>
+<li><a href="https://cndgt.dgtskillattendance.ac.in/auth/login">Attendence</a></li>
 </ul>
 </div>
 
 <div class="col-md-4">
 <h5>Contact</h5>
 <p>Email: info@nsti.com</p>
+<p>Phone: 033-26531225</p>
+<p>Fax: 033-26531257</p>
 </div>
 
 </div>
 
-<p class="text-center mt-3">© 2026 NSTI Howrah</p>
+<p class="copyright">© 2026 NSTI Howrah</p>
 </div>
 </footer>
 
